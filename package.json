@@ -1,6 +1,6 @@
 {
-  "name": "vbot-vuejs-example",
-  "version": "0.0.1",
+  "name": "mosaic-vue",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

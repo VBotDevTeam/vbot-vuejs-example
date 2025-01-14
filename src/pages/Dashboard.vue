@@ -160,7 +160,7 @@ export default {
 
     onMounted(async () => {
       try {
-        const tokenUser = "<client token>";
+        const tokenUser = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJWYWx1ZSI6IjM2Mi0zNTY1LTEyMS0zMTIifQ.MhXkmrzQbUXEmzbsq5fzCwd3LBEXjSK9Bd9JPRYErYM';
         
         if (proxy.$initVBotClient) {
           await proxy.$initVBotClient(tokenUser);

@@ -385,7 +385,6 @@
                   </router-link>              
                 </ul>
               </div>
-              
             </SidebarLinkGroup>                  
             <!-- Messages -->
             <router-link to="/messages" custom v-slot="{ href, navigate, isExactActive }">

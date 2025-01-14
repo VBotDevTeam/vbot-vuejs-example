@@ -88,6 +88,10 @@ export default {
           900: '#4F3D0E',
           950: '#342809',
         },
+        VBotcolor:{
+          50: '#03c75b',
+          100: '#1CAB4E',
+        },
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

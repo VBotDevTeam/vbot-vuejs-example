@@ -1,0 +1,481 @@
+.VBotplugin-container-call {
+    background-color: white;
+    /* padding: 20px; */
+    text-align: center;
+    margin-top: 37px;
+  }
+  #VBotplugin-call-controls {
+    position: absolute;
+    background-color: white;
+    height: 600px;   
+    border-radius: 20px;
+    width: 334px;
+    padding: 20px; 
+    text-align: center;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+
+  }
+  
+    
+.VBotplugin-digit {
+  float: left;
+  margin: 10px 18px;
+  padding-top: 10px;
+  width: 60px;
+  height: 60px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F4F4F4;
+  font-weight: 900;
+}
+   
+  
+.VBotplugin-backspace {
+  float: left;
+  padding-top: 17px; 
+  margin: 10px 18px;
+  width: 60px;
+  height: 60px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F4F4F4;
+}
+  
+
+
+.VBotplugin-call-btn {
+  float: left;
+  background-color: #1CAB4E;
+  color: white;
+  height: 60px;
+  width: 60px;
+  padding-top: 10px;
+  margin: 10px 18px;
+  
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 50px;
+  
+}
+  
+  .VBotplugin-subdigit {
+    font-size: 0.65rem;
+    color: grey;
+    margin-top: -4px;
+}
+  
+
+
+  #openVBotWebCallBtn{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;   
+    background-color: #66bb6a;
+    width: 60px;
+    height: 60px;  
+    color: white;   
+    border-radius: 50%;
+  }
+  #VBotplugin-call-controls{
+    margin-top: 0px;
+    display: none;
+  }
+  #closeVBotWebCallBtn{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    background-color: transparent;
+    border : none;
+  }
+ 
+  
+  .VBotplugin-row-dial {
+    margin: 0 auto;
+    width: 290px;
+    clear: both;
+    text-align: center;
+    font-family: 'Open Sans';
+  }
+  .VBotplugin-botrow {
+    margin: 0 auto;
+    width: 290px;
+    clear: both;
+    text-align: center;
+    font-family: 'Open Sans';
+  }
+  
+#VBotplugin-phoneNumber{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #000000;
+    border: none;
+    outline: none;
+    max-width: 200px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    
+}
+.VBotplugin-digit:hover {
+    background-color: #e9e9e9;
+}
+.VBotplugin-backspace:hover {
+    background-color: #e9e9e9;
+}
+
+#VBotplugin-selectHotline {
+  border: none;
+  font-size: 13px;
+  outline: none;
+  width: 116px;
+  height: 20px;
+  text-align: center;
+  background: #F4F4F4;
+  border-radius: 100px;
+  font-family: 'Open Sans';
+}
+
+#VBotplugin-addcontact {
+  border: none;
+  background: #F4F4F4;
+  font-size: 13px;
+  width: 165px;
+  height: 25px;
+  border-radius: 8px;
+  font-family: 'Open Sans';
+  margin-top: -20px;
+}
+
+#closeVBotWebCallBtn{
+  position: absolute;
+  left: 266px;
+  top: 0px;
+  outline: none;
+}
+
+#VBotplugin-connect-status{
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-family: 'Open Sans';
+  font-size: small;
+}
+
+
+#VBotplugin-calling-screen {
+  position: absolute;
+  background-color: #141414;
+  width: 335px;
+  height: 610px;
+  border-radius: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+#VBotplugin-calling-container {
+  background-color: B2BEB5;
+  
+  text-align: center;
+  
+}
+
+.VBotplugin-contact {
+  padding: 5px;
+  
+  color: #6c757d;
+  
+  position: unset;
+  cursor: pointer;
+}
+
+
+.VBotplugin-inCallButtons {
+  width: 60px !important;
+  height: 60px !important;
+  font-size: 20px !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.VBotplugin-roundButtons {
+  border-radius: 100px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  
+  background-color: #f5f7fb;
+  padding: 0px;
+  font-size: 16px;
+  box-shadow: none;
+  color: #6c757d;
+  min-width: 0px;
+}
+
+  .VBotplugin-roundButtons:hover {
+      border: 1px solid #f5f7fb;
+      background-color: #f5f7fb;
+  }
+
+  .VBotplugin-roundButtons:active {
+      border: 1px solid #404040;
+      background-color: #222222;
+      color: #6c757d;
+  }
+
+  .dropdown-changeDevice {
+    background: none;
+    color: black;   
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-inputdevice {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 150px;
+    font-size: 13px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999999;
+  }
+
+  .dropdown-content-outputdevice {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 150px;
+    font-size: 13px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999999;
+  }
+  
+  .dropdown-content-inputdevice a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content-outputdevice a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  #pills-dialpad-tab{
+    opacity: 0.3;
+    font-size: 13px;
+    font-weight: 500;
+    width: 98px;
+    font-family: 'Open Sans';
+  }
+  
+  #pills-contact-tab{
+    opacity: 0.3;
+    font-size: 13px;
+    font-weight: 500;
+    width: 98px;
+    font-family: 'Open Sans';
+  }
+  
+  #pills-history-tab{
+    opacity: 0.3;
+    font-size: 13px;
+    font-weight: 500;
+    width: 98px;
+    font-family: 'Open Sans';
+  }
+  
+  .nav-pills .nav-link {
+      border-radius: 0.25rem;
+      color: black;
+      background-color: white;
+      border: none;
+      outline: none;
+  }
+  
+  
+  .nav-pills .nav-link.active {
+    color: green;
+    background-color: white;
+    border: none;
+    opacity: 1 !important;
+    outline: none;
+    border-radius: 13px;
+    background: #F0F5F8;
+}
+  .vbot-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.info-historycall {
+  text-align: left;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+  .info-historycall img {
+      margin-right: 0px;
+      width: 20px;
+  }
+
+  .info-historycall span {
+      font-size: 12px;
+      font-weight: 400;
+      color: #9e9e9e;
+  }
+
+  #scrollpane-history {
+    max-height: 425px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#countTimer{
+  color: var(--White, #FFF);
+}
+#infoPhoneNumber{
+  color: var(--White, #FFF);
+}
+#VBotplugin-statuscall{
+  color: var(--White, #FFF);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+#btn-dropdown-changeDevice{
+  color: var(--White, #FFF);
+}
+#changeInputDevice{
+  color: var(--White, #FFF);
+}
+#changeOutputDevice{
+  color: var(--White, #FFF);
+}
+#buttonsInCalling{
+  position: relative;
+    margin-top: 220px;
+    margin-bottom: 25px;
+    gap: 30px;
+}
+/* #dtmfKeyboard{
+  position: relative;
+  bottom: 100px;
+} */
+#dtmfDialpad {
+  position: relative;
+  background-color: white;
+  bottom: 356px;
+  height: 390px;
+  border-radius: 24px;
+  /* left: -2px; */
+  width: 335px;
+  margin-left: -20px;
+}
+#VBotplugin-dtmfNumber {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  color: #000000;
+  border: none;
+  outline: none;
+  max-width: 230px;
+  text-align: center;
+  background-color: transparent;
+}
+
+
+#VBotplugin-dtmfBackspace{
+  position: absolute;
+  top:11px;
+  right:18px;
+}
+.VBotplugin-dtmfButtons {
+  float: left;
+  margin: 10px 20px;
+  width: 60px;
+  height: 60px;
+  padding-top: 10px; 
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F4F4F4;
+}
+.VBotplugin-dtmfButtons:hover {
+  background-color: #e9e9e9;
+}
+.VBotplugin-dtmfrow-dial {
+  /* margin: 0 auto; */
+  margin-left: 18px;
+  width: 330px;
+  clear: both;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+#VBotplugin-dtmfClose{
+  position: absolute;
+    bottom: 3px;
+    left: 145px;
+    background-color: #e9e9e9;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
